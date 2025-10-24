@@ -1,0 +1,24 @@
+Operating system: Microsoft Windows NT 6.2.9200.0
+Opening INI file "E:\Nyper Folder\Github\Sonic-CD-Megadrive\SonPLN.ini"...
+Game type is SCD.
+Loading Title Screen...
+Plane mappings file "tilemaps/Title Screen.eni" not found.
+Loading palette file "palette/Title Screen.bin"...
+Source: 0 Destination: 0 Length: 16
+Loading dummy tile data.
+8x8 tile file "artnem/Title Screen Foreground.nem" not found.
+System.AggregateException: Se han producido uno o varios errores. ---> System.IO.FileNotFoundException: Palette file could not be loaded! Have you set up your disassembly properly?
+   en SonicRetro.SonLVL.SonPLN.MainForm.LoadLevelPalette() en D:\Programs\SonLVL\SonPLN\MainForm.cs:línea 442
+   en System.Threading.Tasks.Task.InnerInvoke()
+   en System.Threading.Tasks.Task.Execute()
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en System.Threading.Tasks.Task.FastWaitAll(Task[] tasks)
+   en System.Threading.Tasks.Parallel.Invoke(ParallelOptions parallelOptions, Action[] actions)
+   en System.Threading.Tasks.Parallel.Invoke(Action[] actions)
+   en SonicRetro.SonLVL.SonPLN.MainForm.backgroundLevelLoader_DoWork(Object sender, DoWorkEventArgs e) en D:\Programs\SonLVL\SonPLN\MainForm.cs:línea 323
+---> (Nº de excepción interna 0) System.IO.FileNotFoundException: Palette file could not be loaded! Have you set up your disassembly properly?
+Nombre de archivo: 'palette/Title Screen.bin'
+   en SonicRetro.SonLVL.SonPLN.MainForm.LoadLevelPalette() en D:\Programs\SonLVL\SonPLN\MainForm.cs:línea 442
+   en System.Threading.Tasks.Task.InnerInvoke()
+   en System.Threading.Tasks.Task.Execute()<---
+
