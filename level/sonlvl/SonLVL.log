@@ -1,0 +1,30 @@
+Operating system: Microsoft Windows NT 6.2.9200.0
+Opening INI file "C:\Users\ericg\Documents\GitHub\Sonic-CD-Megadrive\level\sonlvl\SonLVL.ini"...
+Game type is SCD.
+Loading Present...
+Loading 16x16 blocks from file "../level/PPZ2/map16/R12A.bin", using compression Nemesis...
+Loading palette file "../objects/sonic/palette.bin"...
+Source: 0 Destination: 0 Length: 16
+Loading 256x256 chunks from file "../level/PPZ2/map256_u/R12A.bin", using compression Uncompressed...
+Loading 8x8 tiles from file "../level/PPZ2/Tiles/R12A.bin", using compression Nemesis...
+Loading palette file "../level/palette.bin"...
+Source: 0 Destination: 16 Length: 48
+Loading FG layout from file "../level/PPZ2/FG/R12A_FG.bin", using compression Uncompressed...
+Loading BG layout from file "../level/PPZ2/BG/R12A_BG.bin", using compression Uncompressed...
+System.AggregateException: Se han producido uno o varios errores. ---> System.IO.FileNotFoundException: Palette file could not be loaded! Have you set up your disassembly properly?
+   en SonicRetro.SonLVL.API.LevelData.LoadLevelPalette() en C:\Programs\SonLVL\SonLVLAPI\LevelData.cs:línea 691
+   en System.Threading.Tasks.Task.InnerInvoke()
+   en System.Threading.Tasks.Task.Execute()
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en System.Threading.Tasks.Task.WaitAll(Task[] tasks, Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   en System.Threading.Tasks.Task.WaitAll(Task[] tasks, Int32 millisecondsTimeout)
+   en System.Threading.Tasks.Parallel.Invoke(ParallelOptions parallelOptions, Action[] actions)
+   en System.Threading.Tasks.Parallel.Invoke(Action[] actions)
+   en SonicRetro.SonLVL.API.LevelData.LoadLevel(String levelname, Boolean loadGraphics) en C:\Programs\SonLVL\SonLVLAPI\LevelData.cs:línea 184
+   en SonicRetro.SonLVL.GUI.MainForm.backgroundLevelLoader_DoWork(Object sender, DoWorkEventArgs e) en C:\Programs\SonLVL\SonLVL\MainForm.cs:línea 574
+---> (Nº de excepción interna 0) System.IO.FileNotFoundException: Palette file could not be loaded! Have you set up your disassembly properly?
+Nombre de archivo: '../level/palette.bin'
+   en SonicRetro.SonLVL.API.LevelData.LoadLevelPalette() en C:\Programs\SonLVL\SonLVLAPI\LevelData.cs:línea 691
+   en System.Threading.Tasks.Task.InnerInvoke()
+   en System.Threading.Tasks.Task.Execute()<---
+

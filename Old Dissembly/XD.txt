@@ -1,0 +1,5 @@
+C:\USERS\MASTE\DOCUMENTS\GITHUB\SONIC CD MEGADRIVE\SONIC.ASM(9827) : Warning : Size of objpos_index ($18) does not match ZoneCount ($6).
+C:\USERS\MASTE\DOCUMENTS\GITHUB\SONIC CD MEGADRIVE\_INC\DEFORMLAYERS.ASM(939) : Error : Symbol 'v_scroll_diff_y' not defined
+C:\USERS\MASTE\DOCUMENTS\GITHUB\SONIC CD MEGADRIVE\_INC\DEFORMLAYERS.ASM(1042) : Error : Symbol 'v_scroll_diff_y' not defined
+C:\USERS\MASTE\DOCUMENTS\GITHUB\SONIC CD MEGADRIVE\_INC\DEFORMLAYERS.ASM(1047) : Error : Symbol 'v_verti_blk_crossed_flag' not defined
+C:\USERS\MASTE\DOCUMENTS\GITHUB\SONIC CD MEGADRIVE\_INC\DEFORMLAYERS.ASM(1050) : Error : Symbol 'v_verti_blk_crossed_flag' not defined

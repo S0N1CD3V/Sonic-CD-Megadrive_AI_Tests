@@ -1,0 +1,12 @@
+!*.exe
+player.md
+*.lst
+mega-usb.exe
+ASMfile equ.asm
+MDMusicPlayer.7z
+.build.log
+_temp/*
+_temp
+bin/SMPS2ASMv2.exe.config
+*.pdb
+*.exe.config
